@@ -437,7 +437,7 @@ require('lazy').setup({
       end, { desc = '[S]earch [N]eovim files' })
       -- Shortcut for personal notes
       vim.keymap.set('n', '<leader>sN', function()
-        builtin.find_files { cwd = '~/nextcloud_Ns91/Notes/' }
+        builtin.find_files { cwd = '~/nextcloud_ks91/Notes/' }
       end, { desc = '[S]earch [N]otes files' })
     end,
   },
